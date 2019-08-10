@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <StateController/>
+    <Main/>
   </div>
 </template>
 
 <script>
-import StateController from './components/StateController.vue'
+import Main from './components/Main'
 
 export default {
   name: 'app',
   components: {
-    StateController
+    Main
   }
 }
 </script>
